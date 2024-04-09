@@ -10,7 +10,7 @@ class Recipe extends Model
     use HasFactory;
 
     protected $fillable = [
-        'title', 'description', 'image', 'user_id'
+        'title', 'description', 'visibility', 'image', 'user_id'
     ];
 
     public function user()

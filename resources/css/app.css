@@ -3,14 +3,8 @@
 @tailwind utilities;
 
 
-
-
-.card {
-    width: 100%;
-}
-
-.card-img-top {
-    width: 100%;
-    height: auto;
-}
-
+/* Input type style verwijderen default */
+re
+input[type="file"] {
+    display: none;
+  }
